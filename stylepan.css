@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    
+
+}
+
+#chat{
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    bottom: o;
+    right: 20px;
+    background: mediumseagreen;
+    z-index: 6;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: cursive;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img\tecnica.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header {
+    position:relative;
+    margin: 20px  auto;
+    width: 1000px;
+    height: 120px;
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 600px;
+    height: 60px;
+    font-family: 'Press Start 2P', cursiva;
+    font size: 60px;
+    text-aling:center;
+    line-height: 60px;
+    
+
+
+}
+
+.redes {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: tomato;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    color: rgb(78, 223, 78);
+}
+
+#icono1 {
+    top: 42px;
+    right: 120px;
+    background: blue;
+}
+
+#icono2 {
+    top: 42px;
+    right: 71px;
+    background: red;
+}
+
+#icono3 {
+    top: 42px;
+    right: 19px;
+    background: green;
+}
+
+
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+    
+}
+
+.botones {
+    float: left;
+    width: 196px;
+    margin: 0px 2px;
+    height: 48px;
+    background: rgb(146, 148, 158);
+    font-family: cursive;
+    text-align: center;
+    line-height: 48px;
+}
+
+a .botones:hover{
+    background: rgb(100, 0, 255,.4);
+}
+
+a .botones:active{
+    background: rgb(255, 0, 255,.4);
+
+}
+
+#top {
+    position: relative;
+    margin:  20px auto;
+    width: 1000px;
+    height: 192px;
+}
+
+#top ul{
+    width: 1100px;
+    height: 140px;
+    
+}
+
+#top ul li{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: rgb(40, 172, 172);
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+#top ul li img{
+    border-radius: 100%;
+    height: 100px;
+}
+
+#top ul li h1{
+    font-family: cursive;
+}
+
+#top ul li p{
+    font-size: 14px;
+    margin: 10px;
+}
+
+section {
+    position: relative;
+    margin:  20px auto;
+    width: 1000px;
+    height: 453px; 
+}            
+
+aside#izq{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 453px;
+    background: rgb(244, 244, 252);
+}
+
+aside#izq ul li{
+    background: white;
+    padding: 10px;
+    margin: 1px 10px;
+    list-style: square;
+    list-style-position: inside;
+    list-style-image: url(img\objetivo.png);
+}
+
+aside#izq ul li a{
+    text-decoration: none;
+}
+
+
+aside#der{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+}
+
+aside#der h1{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(161, 107, 7);
+    margin-bottom: 5px;
+}
+
+aside#der input{
+    padding: 11px;
+    margin: 5px 0;
+    width: 176px;
+}
+
+aside#der input[type="text"]{
+
+    background: url(usuario.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+aside#der input[type="password"]{
+    background: url(clave.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+aside#der input[type="submit"]{
+    width: 200px;
+    background: seagreen;
+    border-radius: 5%;
+    border: 6px black;
+
+
+}
+
+
+article{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 600px;
+    height: 453px;
+}
+article  p img{
+    float: left;
+    margin-right: 20px;
+}
+
+article p{
+    margin:  5px  20px;
+    font-size: 9px;
+    text-align: justify;
+}
+
+article h1{
+    font-family: fantasy;
+    font-size: 46px;
+    margin: 20px;
+}
+
+}
+
+footer{
+
+    position: relative;
+    margin:  20px auto;
+    width: 1000px;
+    height: 70px;
+    background: rgb(27, 54, 209);
+    text-align: center;
+    line-height: 70px;
+}
+
